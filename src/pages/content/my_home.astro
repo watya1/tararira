@@ -1,19 +1,10 @@
 ---
-import Header from '../../components/Header.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HimaJin No Tararira</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body class="flex flex-col min-h-screen bg-gray-100 font-sans m-0">
-    <Header title="HimaJin No Tararira"/>
-    <main>
+
+<BaseLayout title="MyHome | HimaJin No Tararira">
+    <div>
         <h1>My Home</h1>
         <p>Welcome to my home page.</p>
-    </main>
-</body>
-</html>
+    </div>
+</BaseLayout>
